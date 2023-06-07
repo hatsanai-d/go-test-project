@@ -114,3 +114,7 @@ func removeScriptTag(text string)string{
 	output := filter.ReplaceAllString(text,"")
 	return output
 }
+
+func secret(secret string)string {
+	return secret
+}
